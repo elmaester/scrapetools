@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/elmaester/scrapetools/issues"
   },
-  "homepage": "https://github.com/elmaester/scrapetools#readme"
+  "homepage": "https://github.com/elmaester/scrapetools#readme",
+  "dependencies": {
+    "a1-beep": "^2.0.1"
+  }
 }
