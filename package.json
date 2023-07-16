@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "My custom library for web scraping, functions I found myself needing over and over",
   "main": "main.mjs",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +22,12 @@
   },
   "homepage": "https://github.com/elmaester/scrapetools#readme",
   "dependencies": {
-    "a1-beep": "^2.0.1"
+    "a1-beep": "^2.0.1",
+    "axios": "^1.4.0",
+    "monk": "^7.3.4",
+    "puppeteer": "^20.8.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "scrape-it": "^6.0.1"
   }
 }
