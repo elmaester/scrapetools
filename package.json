@@ -1,0 +1,23 @@
+{
+  "name": "scrapetools",
+  "version": "1.0.0",
+  "description": "My custom library for web scraping, functions I found myself needing over and over",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmaester/scrapetools.git"
+  },
+  "keywords": [
+    "web",
+    "scraping"
+  ],
+  "author": "elmaester",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/elmaester/scrapetools/issues"
+  },
+  "homepage": "https://github.com/elmaester/scrapetools#readme"
+}
