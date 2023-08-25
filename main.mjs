@@ -1,7 +1,7 @@
 import axios from "axios";
 import chunkArray from "./functions/chunkArray.mjs";
 import filterExistingMongoDocs from "./functions/filterExistingMongoDocs.mjs";
-import getLocalMongoCollectionReference from "./functions/getLocalMongoCollectionReference.mjs";
+import getLocalMongoRefs from "./functions/getLocalMongoRefs.mjs";
 import getPuppeteerPageAndBrowser from "./functions/getPuppeteerPageAndBrowser.mjs";
 import getRandomInteger from "./functions/getRandomInteger.mjs";
 import handleAxiosError from "./functions/handleAxiosError.mjs";
@@ -15,7 +15,7 @@ export {
   axios,
   chunkArray,
   filterExistingMongoDocs,
-  getLocalMongoCollectionReference,
+  getLocalMongoRefs,
   getPuppeteerPageAndBrowser,
   getRandomInteger,
   handleAxiosError,

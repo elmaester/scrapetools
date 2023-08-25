@@ -24,7 +24,9 @@
   "dependencies": {
     "a1-beep": "^2.0.1",
     "axios": "^1.4.0",
-    "monk": "^7.3.4",
+    "dayjs": "^1.11.9",
+    "lowdb": "^6.0.1",
+    "mongodb": "^5.7.0",
     "puppeteer": "^20.8.2",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
