@@ -22,14 +22,16 @@
   },
   "homepage": "https://github.com/elmaester/scrapetools#readme",
   "dependencies": {
-    "a1-beep": "^2.0.1",
-    "axios": "^1.4.0",
-    "dayjs": "^1.11.9",
-    "lowdb": "^6.0.1",
-    "mongodb": "^5.7.0",
-    "puppeteer": "^20.8.2",
-    "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2",
-    "scrape-it": "^6.0.1"
+    "a1-beep": "*",
+    "axios": "*",
+    "axios-cookiejar-support": "*",
+    "dayjs": "*",
+    "lowdb": "*",
+    "mongodb": "*",
+    "puppeteer": "*",
+    "puppeteer-extra": "*",
+    "puppeteer-extra-plugin-stealth": "*",
+    "scrape-it": "*",
+    "tough-cookie": "*"
   }
 }
