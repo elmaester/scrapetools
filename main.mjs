@@ -1,5 +1,6 @@
 import axios from 'axios'
 import backUpAsJson from './functions/backUpAsJson.mjs'
+import catchAxiosError from './functions/catchAxiosError.mjs'
 import chunkArray from './functions/chunkArray.mjs'
 import filterExistingMongoDocs from './functions/filterExistingMongoDocs.mjs'
 import getAxiosWithJar from './functions/getAxiosWithJar.mjs'
@@ -11,10 +12,10 @@ import handleAxiosError from './functions/handleAxiosError.mjs'
 import insertDelay from './functions/insertDelay.mjs'
 import iterateOverArrayAndShowRemainingItems from './functions/iterateOverArrayAndShowRemainingItems.mjs'
 import makeCamelCase from './makeCamelCase.mjs'
-import parseNumber from './functions/parseNumber.mjs'
 import parseResponseInPuppeteer from './functions/parseResponseInPuppeteer.mjs'
 import scrapeIt from 'scrape-it'
 import soundWarning from './functions/soundWarning.mjs'
+import { between, clean, parseNumber } from './functions/stringManipulation.mjs'
 
 const userAgent = {
   'User-Agent':
@@ -24,7 +25,10 @@ const userAgent = {
 export {
   axios,
   backUpAsJson,
+  between,
+  catchAxiosError,
   chunkArray,
+  clean,
   filterExistingMongoDocs,
   getAxiosWithJar,
   getLocalMongoRefs,
