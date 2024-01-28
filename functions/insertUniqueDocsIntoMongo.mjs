@@ -1,4 +1,6 @@
-import dedupeArray from './dedupeArray.mjs';
+import ArMet from './ArMet.mjs';
+
+const { dedupe } = ArMet;
 
 const insertUniqueDocsIntoMongo = async (
   objects,
@@ -12,7 +14,7 @@ const insertUniqueDocsIntoMongo = async (
   }
   const arrayOfObjects = Array.isArray(objects) ? objects : [objects];
 
-  const filteredArray = dedupeArray(arrayOfObjects, fieldName);
+  const filteredArray = dedupe(arrayOfObjects, fieldName);
 
   const existingValues = await mongoCollection.distinct(fieldName);
 
