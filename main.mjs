@@ -18,13 +18,13 @@ import iterateOverArrayAndShowRemainingItems from './functions/iterateOverArrayA
 import { JSDOM } from 'jsdom';
 import makeCamelCase from './makeCamelCase.mjs';
 import parseResponseInPuppeteer from './functions/parseResponseInPuppeteer.mjs';
-import prependWithZeros from './functions/prependWithZeros.mjs';
 import soundWarning from './functions/soundWarning.mjs';
 import {
   between,
   clean,
   convertToCamelCase,
   parseNumber,
+  prependWithZeros,
 } from './functions/stringManipulation.mjs';
 
 const userAgent = {
