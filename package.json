@@ -26,6 +26,8 @@
     "axios": "*",
     "axios-cookiejar-support": "*",
     "dayjs": "*",
+    "events": "*",
+    "jsdom": "*",
     "lowdb": "*",
     "mongodb": "*",
     "puppeteer": "*",

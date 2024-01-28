@@ -1,4 +1,7 @@
+import soundWarning from './soundWarning.mjs'
+
 const catchAxiosError = async (error, errorsCollection) => {
+  soundWarning()
   if (error.response) {
     const { headers, data, status } = error.response
     if (errorsCollection) {
