@@ -32,8 +32,6 @@
     "mongodb": "*",
     "puppeteer": "*",
     "puppeteer-extra": "*",
-    "puppeteer-extra-plugin-stealth": "*",
-    "scrape-it": "*",
-    "tough-cookie": "*"
+    "puppeteer-extra-plugin-stealth": "*"
   }
 }
