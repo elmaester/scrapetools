@@ -12,9 +12,10 @@ import insertDelay from './functions/insertDelay.mjs';
 import insertUniqueDocsIntoMongo from './functions/insertUniqueDocsIntoMongo.mjs';
 import iterateOverArrayAndShowRemainingItems from './functions/iterateOverArrayAndShowRemainingItems.mjs';
 import { JSDOM } from 'jsdom';
+import parseHtmlDir from './functions/parseHtmlDir.mjs';
+import PupMet from './functions/PupMet.mjs';
 import soundWarning from './functions/soundWarning.mjs';
 import StriMan from './functions/StriMan.mjs';
-import PupMet from './functions/PupMet.mjs';
 
 const userAgent = {
   'User-Agent':
@@ -36,6 +37,7 @@ export {
   insertUniqueDocsIntoMongo,
   iterateOverArrayAndShowRemainingItems,
   JSDOM,
+  parseHtmlDir,
   PupMet,
   soundWarning,
   StriMan,
