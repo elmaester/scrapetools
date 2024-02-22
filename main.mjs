@@ -12,7 +12,7 @@ import insertDelay from './functions/insertDelay.mjs';
 import insertUniqueDocsIntoMongo from './functions/insertUniqueDocsIntoMongo.mjs';
 import iterateOverArrayAndShowRemainingItems from './functions/iterateOverArrayAndShowRemainingItems.mjs';
 import { JSDOM } from 'jsdom';
-import parseHtmlDir from './functions/parseHtmlDir.mjs';
+import parseHtmlListDir from './functions/parseHtmlDir.mjs';
 import PupMet from './functions/PupMet.mjs';
 import soundWarning from './functions/soundWarning.mjs';
 import StriMan from './functions/StriMan.mjs';
@@ -37,7 +37,7 @@ export {
   insertUniqueDocsIntoMongo,
   iterateOverArrayAndShowRemainingItems,
   JSDOM,
-  parseHtmlDir,
+  parseHtmlListDir,
   PupMet,
   soundWarning,
   StriMan,

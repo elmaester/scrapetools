@@ -1,13 +1,20 @@
 import { readdirSync, readFileSync } from 'fs';
+import insertUniqueDocsIntoMongo from './insertUniqueDocsIntoMongo.mjs';
+import iterateOverArrayAndShowRemainingItems from './iterateOverArrayAndShowRemainingItems.mjs';
 
-const parseHtmlDir = async (dirPath, parseFunc, collection) => {
+const parseHtmlListDir = async (
+  dirPath,
+  parseFunc,
+  collection,
+  uniqueField
+) => {
   const filenames = readdirSync(dirPath);
 
-  for (const filename of filenames) {
+  await iterateOverArrayAndShowRemainingItems(filenames, async (filename) => {
     const html = readFileSync(`${dirPath}/${filename}`, { encoding: 'utf-8' });
     const data = parseFunc(html);
-    await collection.insertOne(data);
-  }
+    await insertUniqueDocsIntoMongo(data, collection, uniqueField);
+  });
 };
 
-export default parseHtmlDir;
+export default parseHtmlListDir;
