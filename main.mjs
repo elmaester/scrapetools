@@ -43,5 +43,3 @@ export {
   StriMan,
   userAgent,
 };
-
-// test
